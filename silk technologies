@@ -1,0 +1,144 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SILK GROUP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      margin: 15px;
+      padding: 15px;
+      width: 220px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .info {
+      background: white;
+      margin: 20px;
+      padding: 15px;
+      border-radius: 10px;
+    }
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    a {
+      color: green;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>SILK GROUP</h1>
+  <p>Silk Online Services & Silk Technologies</p>
+</header>
+
+<div class="info">
+  <h2>Our Services</h2>
+  <p>CSC Services, Aadhaar, PAN Card, Passport, Bill Payments</p>
+  <p>Xerox, Printing Services, All Online Works</p>
+</div>
+
+<h2>Our Products</h2>
+
+<div class="container">
+
+  <div class="card">
+    <img src="https://source.unsplash.com/200x200/?stationery">
+    <h3>Stationery</h3>
+  </div>
+
+  <div class="card">
+    <img src="https://source.unsplash.com/200x200/?gift">
+    <h3>Gift Items</h3>
+  </div>
+
+  <div class="card">
+    <img src="https://source.unsplash.com/200x200/?chocolate">
+    <h3>Imported Chocolates</h3>
+  </div>
+
+  <div class="card">
+    <img src="https://source.unsplash.com/200x200/?icecream">
+    <h3>Ice Cream</h3>
+  </div>
+
+</div>
+
+<h2>Silk - The Perfume Gallery</h2>
+
+<div class="container">
+
+  <div class="card">
+    <img src="https://source.unsplash.com/200x200/?perfume">
+    <h3>Perfumes</h3>
+  </div>
+
+  <div class="card">
+    <img src="https://source.unsplash.com/200x200/?attar">
+    <h3>Attars</h3>
+  </div>
+
+  <div class="card">
+    <img src="https://source.unsplash.com/200x200/?cap">
+    <h3>Islamic Caps</h3>
+  </div>
+
+  <div class="card">
+    <img src="https://source.unsplash.com/200x200/?dates-fruit">
+    <h3>Dates</h3>
+  </div>
+
+</div>
+
+<div class="info">
+  <h2>Contact Us</h2>
+  <p>📞 9491874711</p>
+  <p>📞 9440774711</p>
+  <p>📞 9493376611</p>
+  <p>📞 9052286611</p>
+
+  <h3>Address:</h3>
+  <p>Shop No:01, Below TGB Bank,<br>
+  Village Manneguda, Mandal Pudur,<br>
+  Dist Vikarabad, Pin: 501101</p>
+</div>
+
+<footer>
+  <p>© 2026 SILK GROUP</p>
+</footer>
+
+</body>
+</html>
